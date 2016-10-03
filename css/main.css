@@ -52,4 +52,13 @@ body {
   width: 8rem;
   border-top: solid #fff 3px;
   background: rgba(255, 255, 255, .6);
+  transition: .25s;
+}
+
+.a:hover{
+  background-color: #fff;
+}
+
+.hover:hover{
+  
 }
