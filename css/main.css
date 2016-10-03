@@ -19,24 +19,34 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
-.pro-pic{
+.pro-pic {
   width: 150px;
   border-radius: 35%;
 }
 
-.logo-icon{
+.logo-icon {
   width: 50px;
 }
 
-.logo{
-  display: inline-block;
-  list-style-type: none;
+.50-img {
+  width: 50%;
 }
 
-.50-img{
-  width: 50%;
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.li-pad {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+a {
+  list-style-type: none;
 }
