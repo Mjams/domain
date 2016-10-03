@@ -36,3 +36,7 @@ body{
   display: inline-block;
   list-style-type: none;
 }
+
+.50-img{
+  width: 50%;
+}
