@@ -28,37 +28,60 @@ body {
   border-radius: 35%;
 }
 
+.personal-logo {
+  width: 100px;
+}
+
 .logo-icon {
   width: 50px;
 }
 
-.50-img {
-  width: 50%;
-}
-
-.bottom-nav {
+nav {
   position: fixed;
   bottom: 0;
   right: 0;
 }
 
 .a {
+  padding: .5rem;
+  margin-left: .5rem;
   font-size: 1.25em;
+  width: 6rem;
   font-family: 'Josefin Sans', sans-serif;
   text-decoration: none;
   color: #000;
-  padding: .5rem;
-  margin-left: .5rem;
-  width: 8rem;
   border-top: solid #fff 3px;
   background: rgba(255, 255, 255, .6);
   transition: .25s;
 }
 
-.a:hover{
+.a:hover {
   background-color: #fff;
 }
 
-.hover:hover{
-  
+.hover:hover {
+
+}
+
+@media only screen and (min-width: 25em) {
+  .a {
+    padding: .5rem;
+    margin-left: .5rem;
+    font-size: 1.25em;
+    width: 8rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+  .a {
+    padding: .5rem;
+    margin-left: .5rem;
+    font-size: 1.50em;
+    width: 9rem;
+  }
+
+  .personal-logo{
+    width: 150px;
+  }
 }
