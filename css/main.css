@@ -63,8 +63,12 @@ nav {
   background-color: #fff;
 }
 
-.hover:hover {
+.hover{
+  transition: .25s;
+}
 
+.hover:hover {
+  box-shadow: -2px 23px 20px -16px rgba(255,255,255,1);
 }
 
 @media only screen and (min-width: 25em) {
