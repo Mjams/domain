@@ -40,6 +40,10 @@ body {
   width: 50px;
 }
 
+.skip-links {
+  visibility: hidden;
+}
+
 nav {
   position: fixed;
   bottom: 0;
