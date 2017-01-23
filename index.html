@@ -2,85 +2,46 @@
 layout: default
 ---
 
-  <div itemscope itemtype="https://schema.org/WebSite" class="text-center">
-    <img itemprop="image" class="personal-logo" src="images/logo.svg" alt="Maggie Paquette Graphic Designer">
-    <img itemprop="image" class="img-flex banner" src="images/banner.svg" alt="">
-  </div>
-</header>
-
 <main>
+  <h1>Maggie Paquette: <br>Portfolio Site</h1>
 
-  <div itemscope itemtype="https://schema.org/WebSite" class="text-center txt-white island-2">
-    <h1 id="main" itemprop="name">Maggie Paquette</h1>
-    <h2 itemprop="description">Graphic Designer</h2>
-  </div>
-
-  <div itemscope itemtype="https://schema.org/WebSite" id="work" class="txt-white island-2">
-    <h3 class="text-center">Work</h3>
-    <div class="grid">
-
-      <div class="island unit xs-1 s-1 m-1 l-1-2 xl-1-3">
-        <figure>
-          <img itemprop="image" class="img-flex" src="images/Atomic-rooster-logo-colour.svg" alt="Atomic Rooster branding and logo redesign">
-          <figcaption class="pad-top-half">This is a branding and logo redesign for Local Ottawa Bar and Bistro.</figcaption>
-        </figure>
-      </div>
-
-      <div class="island unit xs-1 s-1 m-1 l-1-2 xl-1-3">
-        <figure>
-          <img itemprop="image" class="img-flex" src="images/adventure-time-title-page.jpg" alt="Adventure time quote book">
-          <figcaption class="pad-top-half">Quote book made using quotes from The TV show Adventure time. Typography is made using both cardboard cut outs, and digital type.</figcaption>
-        </figure>
-      </div>
-
-      <div class="island unit xs-1 s-1 m-1 l-1-2 xl-1-3">
-        <figure>
-          <img itemprop="image" class="img-flex" src="images/oktoberfest-preview.jpg" alt="Oktoberfest Poster Design">
-          <figcaption class="pad-top-half">Promotional Poster for Oktoberfest.</figcaption>
-        </figure>
-      </div>
-
-      <div class="island unit xs-1 s-1 m-1 l-1-2 xl-1-3">
-        <figure>
-          <img itemprop="image" class="img-flex" src="images/twobite-brownie-package-design.jpg" alt="Two-bite brownie variety pack design">
-          <figcaption class="pad-top-half">Package Design for Two-bite multipack.</figcaption>
-        </figure>
-      </div>
-
-      <div class="island unit xs-1 s-1 m-1 l-1-2 xl-1-3">
-        <figure>
-          <img itemprop="image" class="img-flex" src="images/tattoo-icon-design.jpg" alt="Simplistic tattoo icon design. Simple cat outline">
-          <figcaption class="pad-top-half">Tattoo Designs with simplisic icon style (with a Cat theme).</figcaption>
-        </figure>
-      </div>
-
-      <div class="island unit xs-1 s-1 m-1 l-1-2 xl-1-3">
-        <figure>
-          <img itemprop="image" class="img-flex" src="images/coffee-time-iphone-app-design.jpg" alt="iPhone coffee ordering app design prototype">
-          <figcaption class="pad-top-half">Coffee Time IOS App Prototype.</figcaption>
-        </figure>
-      </div>
-
+  <div id="about-me" class="grid max-body">
+    <div class="unit s-1 m-1-2 l-1-3">
+      <img class="island-half img-flex" src="{{site.baseurl}}/images/contact-me.jpg" alt="Image of my face">
+    </div>
+    <div class="unit s-1 m-1-2 l-1-2">
+      <h3 class="">This is Me</h3>
+      <p>I am a Ottawa Based Graphic Designer. I have been educated through the three year Graphic Design program at Algonquin Collage. I have worked freelance for several local Ottawa companies, and spend my free time making illustrations. I have a heavy interest working in UI/UX Design, and love being able to bring in the technical side into design.</p>
     </div>
   </div>
-<div id="data-author" itemprop="Author" itemscope itemtype"https://schema.org/Person">
-  <div class="text-center txt-white">
-    <h3 id="about">About</h3>
-    <img itemprop="image" class="pro-pic" src="images/profile.jpg" alt="">
-    <p class="max-length">My name is Maggie Paquette. I am a <em>Graphic Designer</em> Educated through Algonquin College in Ottawa Ontario. Graphic Design is a dream come true, incorporating artistic passions, and a business aspect. With two years of experience I have worked as freelancer with local Ottawa Companies.</p>
+
+  <div id="portfolio">
+    <div class="text-center zindex-3 txt">
+      <h3 class="">Wish to Take a Gander?</h3>
+      <a class="web-button" href="{{site.baseurl}}/portfolio/" class="">Click Me</a>
+    </div>
+    <img class="banner-img img-flex" src="{{site.baseurl}}/images/collage-home.jpg" alt="">
+  </div>
+
+  <div id="contact" class="grid max-body">
+    <div class="text-center island unit s-1 m-1-2 l-1-2">
+      <h3 class="margin-0">Let's Talk</h3>
+      <div class="island">
+        <a class="web-button" href="mailto:maggie.paquette200@gmail.com">Email Me</a>
+      </div>
+      <h4 class="padding-top">Socail Media</h4>
+      <div>
+        <a href="https://www.instagram.com/maggie_paquette/"><img class="social-icon" src="{{site.baseurl}}/images/instagram.svg" alt="Icon of Instagram"></a>
+        <a href="https://www.behance.net/maggiedesign"><img class="social-icon" src="{{site.baseurl}}/images/behance.svg" alt="Icon of Behance"></a>
+        <a href="https://vimeo.com/user48221168"><img class="social-icon" src="{{site.baseurl}}/images/vimeo.svg" alt="Icon of vimeo"></a>
+      </div>
+    </div>
+    <div class="pad-top-half unit xs-1 s-1 m-1-2 l-1-3">
+      <img class=" img-flex" src="{{site.baseurl}}/images/about-me-char.png" alt="Cat Character for design purposes">
+    </div>
   </div>
 </main>
 
-<footer class="text-center txt-white">
-    <h3 id="cont" class="">Contact</h3>
-    <a itemprop="email" class="txt-white" href="mailto:maggie.paquette200@gmail.com">designer@maggiepaquette.net</a>
+<footer>
 
-
-    <div class="island-2">
-      <a itemprop="url"class="inline-block hover" href="https://www.instagram.com/maggie_paquette/"><img class="logo-icon island-quarter" src="images/instagram.svg" alt=""></a>
-      <a itemprop="url" class="inline-block hover" href="https://www.behance.net/MaggiePaquette"><img class="logo-icon island-quarter" src="images/behance.svg" alt=""></a>
-      <a itemprop="url" class="inline-block hover" href="https://ca.linkedin.com/in/maggie-paquette-108178106"><img class="logo-icon island-quarter" src="images/linkedin.svg" alt=""></a>
-      <a itemprop="url" class="inline-block hover" href="https://vimeo.com/user48221168"><img class="logo-icon island-quarter" src="images/vimeo.svg" alt=""></a>
-    </div>
 </footer>
-</div>
