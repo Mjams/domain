@@ -17,10 +17,12 @@
   background-color: #26bbb3;
   padding: .75em;
   border-radius: 7px;
+
 }
 
 .web-button:hover {
   background-color: #18635e;
+  transition: .5s;
 }
 
 .margin-0 {
