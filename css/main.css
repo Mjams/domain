@@ -11,6 +11,10 @@
   padding: .25em;
 }
 
+.web-button:hover {
+  background-color: #18635e;
+}
+
 .web-button {
   position: relative;
   color: white;
