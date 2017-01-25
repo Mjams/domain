@@ -11,16 +11,16 @@
   padding: .25em;
 }
 
-.web-button:hover {
-  background-color: #18635e;
-}
-
 .web-button {
   position: relative;
   color: white;
   background-color: #26bbb3;
   padding: .75em;
   border-radius: 7px;
+}
+
+.web-button:hover {
+  background-color: #18635e;
 }
 
 .margin-0 {
